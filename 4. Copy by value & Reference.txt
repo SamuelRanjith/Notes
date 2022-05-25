@@ -1,0 +1,22 @@
+//copy by value and copy by reference
+//JSON and how it is different for object
+//array of json object
+
+
+//function intro
+//copy by value: applicable to primitive data type
+//copy by reference: applicable to complex data type
+
+//value
+var a=30;
+var b=40;
+b=a;
+a=50;
+console.log(a,b);
+
+//reference
+var arr=[1,2,3];
+var arr1=arr;
+console.log(arr1);
+arr[0]=23;
+console.log(arr);

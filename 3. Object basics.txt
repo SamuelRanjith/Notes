@@ -1,0 +1,39 @@
+//Object : consist of key and value (K:V)
+//syntax : var objectname={};
+//John doe
+var studentname={
+name:"John doe",
+age: 23,
+address:"San fansico,USA",
+Phone: 978654432
+}
+//objectname.keyname
+console.log(studentname.name);
+//second notation
+//objectname["keyname"]
+console.log(studentname["name"]);
+//object name.keyname = value tp push new key:value pair(need to add )
+studentname.gender="male";
+studentname.attendance=["mon","wed","thur"];
+studentname.attendance.splice(1,0,"tue");
+studentname.attendance.splice(3,1,"friday");
+delete studentname.address;
+console.log(studentname);
+//how to print the objects?
+//for-in loop (forward iteration)One way(Most preferred for Objects)
+//syntax : for(key in Object) 
+for(var i in studentname){
+console.log(i+":"+studentname[i]);
+}
+console.log(studentname.attendance[0]);
+//+"20" (+ symbol for concatenation work)
+
+//print the output mon on the output screen
+
+//insert tue between mon and wed
+
+//replace thur by friday
+
+//delete objectname.keyname
+delete studentname.address;
+console.log(studentname);

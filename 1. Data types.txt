@@ -1,0 +1,12 @@
+//Data types
+//String, Number, Boolean, -> Primitive data types -> Inbuilt data types
+//Student name = String
+//student age = Number
+//student phone Number
+//Array and objects -> Complex data types -> User defined
+var s1 = 77;
+var s1 = 34.55;
+var s1 = "Ranjith";
+console.log(s1);
+var s1 = "Sam";
+console.log(typeof(typeof(s1)));

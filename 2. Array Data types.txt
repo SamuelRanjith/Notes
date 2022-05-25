@@ -1,0 +1,50 @@
+//complex  /user defined
+//syntax : var arrayname=[elements];
+var arr=[1,2,3,"ranji",33.33,true];
+// using index value only we can modify the elements
+console.log(typeof(arr));
+//Objects can be consider as lumbsum
+//array name is the starting address, using this 
+//we can access all the elements of the array
+//length : no of elements in an array
+//array is an continous memory[]
+arr[50]=("geek");
+//array.length
+console.log(arr.length);
+//undefined : value not defined
+
+
+
+//how to print the array elements?(step by step printing)
+var arr=[1,2,3,"Ranjith"];
+for(var i=0;i<arr.length;i++){
+console.log(arr[i]);
+}
+//loop use: one by one
+
+
+
+//OR Gate 0 0 = 0
+  //      0 1 = 1
+    //    1 0 = 1
+      //  1 1 = 1
+        
+//& Gate  0 0 = 0
+  //      0 1 = 0
+    //    1 0 = 0
+      //  1 1 = 1
+
+//NOT Gate
+  //      0 1 = 0
+    //    1 0 = 0
+ 
+ //If condition
+ 
+if (age > 18 && age == 18){
+
+console.log("You are eligible for voting");
+
+} else {
+
+console.log("You are not eligible for voting");
+}
